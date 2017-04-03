@@ -1,0 +1,86 @@
+.fangkuai{
+	margin-top:300px;
+	width:100px;
+	height: 100px;
+	background: red;
+	position: relative;
+	animation: movea 3s linear infinite alternate;
+	-moz-animation:movea 3s linear infinite alternate;
+	-webkit-animation:movea 3s linear infinite alternate;
+	-o-animation:movea 3s linear infinite alternate;
+
+}
+@keyframes movea{
+	0%		{background: red;left: 0px;}
+	20%		{background: yellow;left: 200px;}
+	40%		{background: blue;left: 400px;}
+	60%		{background: gray;left: 600px;}
+	80%		{background: green;left: 800px;}
+	100%	{background: red;left: 1000px;}
+}
+@-moz-keyframes movea{
+	0%		{background: red;left: 0px;}
+	20%		{background: yellow;left: 200px;}
+	40%		{background: blue;left: 400px;}
+	60%		{background: gray;left: 600px;}
+	80%		{background: green;left: 800px;}
+	100%	{background: red;left: 1000px;}
+}
+@-webkit-keyframes movea{
+	0%		{background: red;left: 0px;}
+	20%		{background: yellow;left: 200px;}
+	40%		{background: blue;left: 400px;}
+	60%		{background: gray;left: 600px;}
+	80%		{background: green;left: 800px;}
+	100%	{background: red;left: 1000px;}
+}
+@-o-keyframes movea{
+	0%		{background: red;left: 0px;}
+	20%		{background: yellow;left: 200px;}
+	40%		{background: blue;left: 400px;}
+	60%		{background: gray;left: 600px;}
+	80%		{background: green;left: 800px;}
+	100%	{background: red;left: 1000px;}
+}
+.jiazaitiao{
+	margin-top: 300px;
+	height: 30px;
+	width: 0;
+	background: gray;
+	position: relative;
+	animation: moveb 3s linear;
+	-moz-animation:moveb 3s linear;
+	-webkit-animation:moveb 3s linear;
+	-o-animation:moveb 3s linear;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	-o-border-radius:25px;
+}
+@keyframes moveb{
+	0%		{width: 0px;}
+	25% 	{width: 300px;}
+	50%		{width: 600px;}
+	75%		{width: 900px;}
+	100%	{width: 1200px;}
+}
+@-moz-keyframes moveb{
+	0%		{width: 0px;}
+	25% 	{width: 300px;}
+	50%		{width: 600px;}
+	75%		{width: 900px;}
+	100%	{width: 1200px;}
+}
+@-webkit-keyframes moveb{
+	0%		{width: 0px;}
+	25% 	{width: 300px;}
+	50%		{width: 600px;}
+	75%		{width: 900px;}
+	100%	{width: 1200px;}
+@-o-keyframes moveb{
+	0%		{width: 0px;}
+	25% 	{width: 300px;}
+	50%		{width: 600px;}
+	75%		{width: 900px;}
+	100%	{width: 1200px;}
+}

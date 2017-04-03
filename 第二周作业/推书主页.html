@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>推书首页</title>
+	<link href="推书主页.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+	function showtext()  
+	{  
+	var mychar = document.getElementById("login");
+    mychar.style.display="block";
+	}  
+	function hidetext()  
+	{  
+	var mychar = document.getElementById("login");
+    mychar.style.display="none";
+	}  
+	</script>
+</head>
+<body>
+<div class="bd">
+	<div class="user">
+		<img src="图/人.png" style="float: right;position: relative;left: 30px;">
+		<input type="button" onclick="showtext()" style="position: relative;left:1475px;  width:30px; height: 30px; background:transparent; border:none; outline:none; ">
+	</div>
+	<table class="logo" ">
+		<tr>
+			<td><img src="图/logo.png"/></td>
+		</tr>
+	</table>
+	<table class="logo_b_word" ">
+		<tr>
+			<td>The books that know you</td>
+		</tr>
+	</table>
+	<div class="search">
+		<img src="图/搜索.png" height="25px" width="25px" style="float: right;padding:2px 5px 0 0;">
+		<input type="text" name="login_user" value="搜索" class="search_bar" onfocus="this.value=&#39;&#39;" onblur="if(this.value==&#39;&#39;){this.value=&#39;搜索&#39;}" >
+		
+	</div>
+	<div class="buttonbd">
+		<form>
+			<button class="button">大类1</button>
+			<button class="button">大类2</button>
+			<button class="button">大类3</button>
+			<button class="button">大类4</button>
+		</form>
+	</div>
+	<div id="login" >
+		<img src="图/close.png" style="float: right;margin: 10px;">
+		<input type="button" onclick="hidetext()" style="position: relative;left:730px;top:10px;  width:30px; height: 30px; background:transparent; border:none; outline:none; ">
+		<div style="width: 150px;margin: 0 auto 50px;">
+			<img src="图/logo.png" style="width: 150px;height: 85px;margin-top: 38px;">
+		</div>
+		<div style="width:400px; letter-spacing:10px;margin:0 auto;font-size:20px;">
+			账号：<input type="text" name="login_user" value="用户名" class="input_box" onfocus="this.value=&#39;&#39;" onblur="if(this.value==&#39;&#39;){this.value=&#39;用户名&#39;}" >
+			密码：<input type="password" name="login_user" value="******" class="input_box" onfocus="this.value=&#39;&#39;" onblur="if(this.value==&#39;&#39;){this.value=&#39;******&#39;}">
+	</div>
+	<div style="width: 95px;margin:0 auto;">
+		<input class="login_button" type="button" onclick="" value="登录" /> 
+		<span class="login_register">注册</span>
+	</div>
+
+</body>
+</html>
